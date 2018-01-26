@@ -1,0 +1,17 @@
+total 17212
+-rw-rw-r-- 1 pyr pyr   76410 jan 24 07:56 club-gil.jpg
+-rw-rw-r-- 1 pyr pyr  139456 jan 24 07:57 club-sommer.jpg
+-rw-r--r-- 1 pyr pyr  123417 jan 24 09:49 domi.jpg
+-rw-r--r-- 1 pyr pyr       0 jan 25 07:45 list.txt
+-rwxrwxrwx 1 pyr pyr  899950 jan 25  2016 mariage.JPG
+-rw-rw-r-- 1 pyr pyr  123163 oct  4 03:13 nad-service.jpg
+-rw-rw-r-- 1 pyr pyr   34104 jan 24 08:04 nicoud-jeune.jpg
+-rw-rw-r-- 1 pyr pyr   43342 jan 24 08:02 nicoud-leru.jpg
+-rw-rw-r-- 1 pyr pyr   11844 jan 24 08:06 nicoud-sommer.jpg
+-rw-rw-r-- 1 pyr pyr  136528 jan 23 10:37 raphael-papa.jpg
+-rwxrwxrwx 1 pyr pyr 2365262 fév  3  2016 salle-pc-cotonou.JPG
+-rwxrwxrwx 1 pyr pyr 2523208 avr 19  2016 studio-pyr.JPG
+-rwxrwxrwx 1 pyr pyr 1932241 fév 16  2016 studio-yamous.JPG
+-rw-rw-r-- 1 pyr pyr   67280 jan 24 20:09 suisse-taux-de-chomage.png
+-rw-rw-r-- 1 pyr pyr 6553732 jan 25 07:38 vallee-de-joux.jpg
+-rw-r--r-- 1 pyr pyr 2557185 jan 25 07:40 vallee-de-joux-l.jpg

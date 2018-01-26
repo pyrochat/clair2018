@@ -1,0 +1,14 @@
+titre:
+    - "Clair 2018"
+categ:            
+type:             Théorie
+niveau:           base
+auteur:
+    - YT
+statut:           Relecture
+code:             clair2018
+url:
+    cours-html:   clair2018.html
+    cours-pdf:    clair2018.pdf
+    dias-video:   clair2018-dia.pdf
+    dias-compact: clair2018-dia-compact.pdf
