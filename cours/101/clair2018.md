@@ -49,7 +49,7 @@ Tout les six mois, un concours était organisé pour les membres du club. Chacun
 
 ![Un jeune du club présentant sa réalisation](images/club-gil.jpg "Un jeune du club présentant sa réalisation"){ width=35% }
 
-Je me souviens de la première fois que j'ai vu un _diode lumineuse_, appelée aussi LED. Nous étions fascinés par cette minuscule soure ce de lumière qui ne chauffait même pas. Avec mes camarades, on s'est mis à rêver d'en placer des milliers sur le mur, pour en faire une télévision plate. Heureusement, les _plus grands_ nous ont vite ramenés à la réalité, tant le projet leur semblait irréalisable. On en reparlera plus loin...
+Je me souviens de la première fois que j'ai vu un _diode lumineuse_, appelée aussi LED. Nous étions fascinés par cette minuscule source ce de lumière qui ne chauffait même pas. Avec mes camarades, on s'est mis à rêver d'en placer des milliers sur le mur, pour en faire une télévision plate. Heureusement, les _plus grands_ nous ont vite ramenés à la réalité, tant le projet leur semblait irréalisable. On en reparlera plus loin...
 
 ![Diode lumineuse, ou LED](images/led.svg "Diode lumineuse, ou LED]"){ width=10% }
 
@@ -73,9 +73,13 @@ J'ai donc fait mes études d'ingénieur électricien entre 1975 et 1980. Sans é
 
 ##  Famille
 
-Je me suis marié en 1979, entre mes examens finaux et mon travail de diplôme. Dix mois plus tard arrivait notre premier fils. A 28 ans, j'avais quatre enfants.
+Je me suis marié en 1979, entre mes examens finaux et mon travail de diplôme. Dix mois plus tard arrivait notre premier fils.
 
 ![Mon mariage en 1979](images/mariage-pyr-domi.jpg "Mon mariage en 1979"){ width=70% }
+
+A 28 ans, j'avais quatre enfants.
+
+![Mon mariage en 1979](images/enfants4.jpg "Mon mariage en 1979"){ width=70% }
 
 ## Trouver du travail ?
 
@@ -168,7 +172,7 @@ Quelques années plus tard, des croix matricielles sont produites au Bénin, au 
 
 ## Dominique
 
-Mon épouse Dominique était aussi passionnée que moi de l'Afrique. Elle a a consacré plusieurs années à des projets caritatifs dans la petite ville de Bassar, au nord du Togo : soutien scolaire, dispensaire, prévention et soin de l'hypertension parmi les femmes âgées. Elle décède brusquement en 2008.
+Mon épouse Dominique était aussi passionnée que moi de l'Afrique. Elle a a consacré plusieurs années à des projets caritatifs dans la petite ville de Bassar, au nord du Togo : soutien scolaire, dispensaire, prévention et soin de l'hypertension parmi les femmes âgées. Elle tombe malade en août 2008 et décède une semaine plus tard à l'hôpital de Genève.
 
 ![Dominique, quelques mois avant son décès](images/domi.jpg "Dominique, quelques mois avant son décès"){ width=35% }
 
@@ -223,7 +227,7 @@ Dans l'article paru le 4 mai 2014, on peut lire par exemple en sous-titre "Une s
 
 _À Lausanne, les quelques passionnés d’Afrique qui, pendant des années, ont autofinancé leurs voyages, sont désormais portés par la stratégie africaine de l’EPFL. C’est le cas de Pierre-Yves Rochat, 56 ans. Son Mooc a tellement d’inscrits en Afrique, où il passe trois mois par an, qu’il est une star de Thiès à Niamey, de Pointe-Noire à Kinshasa, reconnu à sa chemise à fleurs avant même son entrée dans l’auditoire._
 
-En réponse à cet article, un journaliste de France-Info affirme, je cite : "... les MOOCs, dont les professeurs sont devenus ds star planétaires...".
+En réponse à cet article, un journaliste de France-Info affirme, je cite : "... les MOOCs, dont les professeurs sont devenus de véritables stars planétaires...".
 
 Aujourd'hui, notre MOOC attire encore des participants de presque tous les pays du monde. Il a dépassé 40'000 inscrits. Plus de 1'500 ont terminé le MOOC en rendant toutes les évaluations avec un niveau suffisant.
 
@@ -261,11 +265,11 @@ Les vidéos des MOOCs sont filmées dans des studios préparés à cet effet. Co
 Un peu différents d'un studio généraliste, les studio MOOCs disposent au moins :
 
 * d'une caméra qui filme le professeur le professeur
-* un table devant laquelle se tient le professeur
-* un ordinateur avec une tablette graphique (type Wacom)
-* un éclairage pour le professeur
-* un fond blanc (ou éventuellement vert)
-* un éclairage pour le fond blanc, capable de saturer cette partie de l'image
+* d'un table devant laquelle se tient le professeur
+* d'un ordinateur avec une tablette graphique (type Wacom)
+* d'un éclairage pour le professeur
+* d'un fond blanc (ou éventuellement vert)
+* d'un éclairage pour le fond blanc, capable de saturer cette partie de l'image
 
 L'enregistrement des flux vidéos peut se faire par la caméra et par l'ordinateur, ou par des enregistreurs vidéo dédiés. A l'EPFL, un troisième flux vidéo est enregistré : c'est la main du professeur, qui peut désigner telle ou telle partie des diapositives, écrire, surligner.
 
@@ -311,12 +315,12 @@ Mais travailler en Afrique est difficile. Beaucoup d’inerties, beaucoup de fro
 Il crée en 2013 déjà le programme MOOCs for Africa, dont voici quelques réalisations :
 
 * 11 universités d’Afrique sub-Saharienne associées au programme
-* plus de 65 enseignants et techniciens africains formés à l’EPFL à la production des MOOCs
+* Plus de 65 enseignants et techniciens africains formés à l’EPFL à la production des MOOCs
 * 2 MOOC Factories créés en Afrique (centres de compétences techno-pédagogiques) : ESP Dakar et INP-HB, Yamoussoukro
 * 51 MOOCs produits ou co-produits, dont 35 sont intégrés aux cursus des partenaires africains
 * 14 MOOCs collaboratifs produits par 74 enseignants de 22 institutions du Nord et du Sud
-* plus de 220’000 africains inscrits aux MOOCs de l’EPFL
-* plus de 3’500 ont obtenu des certificats par les  plateformes Coursera et edX
+* Plus de 220’000 africains inscrits aux MOOCs de l’EPFL
+* Plus de 3’500 ont obtenu des certificats par les  plateformes Coursera et edX
 * Concept de _Certificates of Open Studies_ (COS) validé et inscrit dans l’offre de l’EPFL, 2 COS approuvés (Gestion des Villes Africaines et Gestion des Aires Protégées).
 * Accord avec l’AUF pour la tenue d’examens surveillés dans les 37 Campus Numériques Francophones, permettant de valider la réussite des MOOCs.
 

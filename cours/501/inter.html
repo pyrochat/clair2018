@@ -134,7 +134,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul>
 <h2 id="syntaxe-des-routines-dinterruptions">Syntaxe des routines d’interruptions</h2>
 <p>Le langage C ne définit pas la syntaxe des routines d’interruptions. Plusieurs notations sont utilisées, dépendant des compilateurs. Nous présenterons ici une des syntaxe supportée par les compilateurs GCC.</p>
-<div class="sourceCode"><pre class="sourceCode c"><code class="sourceCode c"> <span class="ot">#pragma vector=NUMERO_DU_VECTEUR</span>
+<div class="sourceCode"><pre class="sourceCode c"><code class="sourceCode c"> <span class="pp">#pragma vector=NUMERO_DU_VECTEUR</span>
  __interrupt <span class="dt">void</span> Nom_de_la_routine (<span class="dt">void</span>) {
   ...
  }</code></pre></div>
@@ -185,13 +185,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
     P1IFG &amp;=~(<span class="dv">1</span>&lt;&lt;<span class="dv">3</span>); <span class="co">// Fanion d’interruption remis à zéro</span>
     __enable_interrupt(); <span class="co">// General Interrupt Enable</span>
 
-    <span class="kw">while</span>(<span class="dv">1</span>) { <span class="co">// il n’y a rien à faire dans la boucle principale !</span>
+    <span class="cf">while</span>(<span class="dv">1</span>) { <span class="co">// il n’y a rien à faire dans la boucle principale !</span>
     }
 }
 
 <span class="co">// Routine d’interruption associée au Port P1</span>
 <span class="co">// Syntaxe spécifique pour les interruptions :</span>
-<span class="ot">#pragma vector=PORT1_VECTOR</span>
+<span class="pp">#pragma vector=PORT1_VECTOR</span>
 __interrupt <span class="dt">void</span> Port1_ISR(<span class="dt">void</span>) {
   P1IFG &amp;= ~(<span class="dv">1</span>&lt;&lt;<span class="dv">3</span>); <span class="co">// Fanion d’interruption correspondant au bit 3 remis à 0</span>
   P1OUT ^= (<span class="dv">1</span>&lt;&lt;<span class="dv">6</span>); <span class="co">// inverse P1.6 (LED verte)</span>
@@ -228,11 +228,11 @@ __interrupt <span class="dt">void</span> Port1_ISR(<span class="dt">void</span>)
   P1IFG &amp;=~((<span class="dv">1</span>&lt;&lt;<span class="dv">3</span>)|(<span class="dv">1</span>&lt;&lt;<span class="dv">4</span>)); <span class="co">// Fanions d’interruption remis à zéro</span>
   ...
 
-<span class="ot">#pragma vector=PORT1_VECTOR</span>
+<span class="pp">#pragma vector=PORT1_VECTOR</span>
 __interrupt <span class="dt">void</span> Port1_ISR(<span class="dt">void</span>) {
   <span class="co">// scrutation des causes possible de l’interruption :</span>
-  <span class="kw">if</span> (P1IFG &amp; (<span class="dv">1</span>&lt;&lt;<span class="dv">3</span>)) {... ; P1IFG &amp;= ~(<span class="dv">1</span>&lt;&lt;<span class="dv">3</span>); }
-  <span class="kw">if</span> (P1IFG &amp; (<span class="dv">1</span>&lt;&lt;<span class="dv">4</span>)) {... ; P1IFG &amp;= ~(<span class="dv">1</span>&lt;&lt;<span class="dv">4</span>); }
+  <span class="cf">if</span> (P1IFG &amp; (<span class="dv">1</span>&lt;&lt;<span class="dv">3</span>)) {... ; P1IFG &amp;= ~(<span class="dv">1</span>&lt;&lt;<span class="dv">3</span>); }
+  <span class="cf">if</span> (P1IFG &amp; (<span class="dv">1</span>&lt;&lt;<span class="dv">4</span>)) {... ; P1IFG &amp;= ~(<span class="dv">1</span>&lt;&lt;<span class="dv">4</span>); }
 }</code></pre></td></tr></table></div>
 <!-- retour au mode normal pour l’éditeur -->
 <h2 id="interruption-de-fin-de-conversion">Interruption de fin de conversion</h2>
@@ -272,18 +272,18 @@ __interrupt <span class="dt">void</span> Port1_ISR(<span class="dt">void</span>)
   __enable_interrupt(); <span class="co">// General Interrupt Enable</span>
   ADC10CTL0 |= ENC + ADC10SC; <span class="co">// lance une première conversion</span>
 
-  <span class="kw">while</span>(<span class="dv">1</span>) { <span class="co">// il n’y a rien à faire dans la boucle principale !</span>
+  <span class="cf">while</span>(<span class="dv">1</span>) { <span class="co">// il n’y a rien à faire dans la boucle principale !</span>
   }
 }
 
 <span class="co">// Routine d’interruption associée à la fin de conversion ADC</span>
-<span class="ot">#pragma vector=ADC10_VECTOR</span>
+<span class="pp">#pragma vector=ADC10_VECTOR</span>
 __interrupt <span class="dt">void</span> ADC10_ISR(<span class="dt">void</span>) {
   <span class="dt">uint16_t</span> val = ADC10MEM; <span class="co">// lit le résultat de la conversion</span>
   ADC10CTL0 |= ENC + ADC10SC; <span class="co">// lance la conversion suivante</span>
-  <span class="kw">if</span> (val &gt; <span class="dv">512</span>) { <span class="co">// Montre sur la LED verte si la valeur dépasse Vcc/2</span>
+  <span class="cf">if</span> (val &gt; <span class="dv">512</span>) { <span class="co">// Montre sur la LED verte si la valeur dépasse Vcc/2</span>
     P1OUT |= (<span class="dv">1</span>&lt;&lt;<span class="dv">6</span>); <span class="co">// LED verte On</span>
-  } <span class="kw">else</span> {
+  } <span class="cf">else</span> {
     P1OUT &amp;=~(<span class="dv">1</span>&lt;&lt;<span class="dv">6</span>); <span class="co">// LED verte Off</span>
   }
 }</code></pre></td></tr></table></div>
