@@ -113,7 +113,11 @@ Mais être trop tôt entrepreneur peut présenter un risque : comment être un b
 
 Dans l'esprit des club d'électronique qui avaient marqués mon adolescence, j'ai organisé des activités pour les jeunes dans mon village, Romanel-sur-Lausanne. Durant plusieurs années, une salle en sous-sol de la maison de commune a été loué et des activités s'y sous déroulées de manière régulière. Des enfants ont été initiés à l'informatique, qui était encore inconnue du grand public.
 
-Chacun a des compétences, tout le monde peut apporter aux enfants et aux jeunes son savoir faire, transmettre ses passions. Les associations sont très nombreuses en Suisse....
+J'ai organisé de nombreux ateliers pour des enfants, dans des cadres divers. Durant toutes les années où le Festival de Robotique a eu lieu à l'EPFL, j'avais un atelier de construction d'un dé électronique, où des centaines d'enfants on pu s'initier au montage électronique.
+
+![Le dé électronique](images/de-electr.jpg "Le dé électronique"){ width=80% }
+
+Chacun a des compétences, tout le monde peut apporter aux enfants et aux jeunes son savoir faire, transmettre ses passions. Les associations sont très nombreuses en Suisse. Mais le bénévolat n'a
 
 
 ## Afrique
